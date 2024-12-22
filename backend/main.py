@@ -15,4 +15,5 @@ app.add_middleware( #CORS 설정
 
 @app.get('/')
 def read_root():
+    
     return {"message":"Hello world"}
